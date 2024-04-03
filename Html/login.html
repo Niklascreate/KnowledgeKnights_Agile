@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/style.css">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <div class="login__wrapper">
+
+        <header class="header--dark">
+            <nav class="product__nav">
+                <section class="product__nav-hamburger">
+                    <img class="product__hamburger-icon" src="../Assets/navicon.svg" alt="hamburger menu icon">
+                </section>
+            </nav>
+        </header>
+
+        <main>
+
+            <!-- LOGIN START-->
+            <section class="login__form-wrapper">
+                <form class="login__form" action="#" id="login">
+
+                    <img class="login__icon" src="../Assets/logo-sml.svg" alt="Small Airbean icon logo">
+
+                    <h1 class="login__heading">Logga in på ditt AirBean-konto!</h1>
+                    <p class="login__info-text">Genom att logga in på ditt konto nedan kan du spara och se din
+                        orderhistorik.
+                    </p>
+
+                    <label for="email" class="login__input-group">
+                        <div class="login__message login__message--error"></div>
+                        <input type="text" class="login__input" id="username-login" name="username"
+                            placeholder="Användarnamn eller epostadress" required>
+                    </label>
+
+                    <label for="password" class="login__input-group">
+                        <div class="login__message login__message--error"></div>
+                        <input type="password" class="login__input" id="password-login" name="password"
+                            placeholder="Lösenord" required>
+                    </label>
+
+                    <p class="login__login">
+                        <a class="login__login__link" link="#" href="../Html/signup.html" id="linkCreateAccount">Har du
+                            inget konto? Skapa
+                            konto</a>
+                    </p>
+
+                    <button type="submit" class="login__sumbit-btn" id="loginBtn">Brew me in!</button>
+                </form>
+            </section>
+            <!-- LOGIN END -->
+
+
+        </main>
+    </div>
+
+        <!-- Nav slider  -->
+
+        <div class="nav-page__wrapper" id="navPage">
+
+            <button class="nav-page__close-btn">
+                <img class="nav-page__close-icon" src="../Assets/close.svg" alt="Close menu">
+            </button>
+
+            <nav class="nav-page__menu">
+                <ul>
+                    <li><a href="./product.html">Meny</a></li>
+                    <hr>
+                    <li><a href="./aboutpage.html">Vårt Kaffe</a></li>
+                    <hr>
+                    <li><a href="./profilepage.html">Min Profil</a></li>
+                    <hr>
+                    <li><a href="./status.html">Orderstatus</a></li>
+                    <hr>
+                    <li><a href="./signup.html"><button class="navreg-btn">Logga in/Registrera dig</button></a></li>
+                </ul>
+            </nav>
+        </div>
+
+    <script src="../Script/script.js" type="module"></script>
+</body>
+
+</html>
