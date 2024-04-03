@@ -3,7 +3,13 @@
 # Team Project - Arbeta Agilt
 
 Gruppuppgift i att arbeta agilt.
-Gruppmedlemmar:
+
+## Gruppmedlemmar:
+Niklas Nilsson
+Najib Muhammadi
+Jakob Collen
+Diliar Tazeva
+Adréan Rodriguez
 
 ## Airbean
 Ni har anlitats av den världsberömda cafékedjan Airbean, som är mest kända för sitt innovativa sätt att leverera kaffe på, för att utveckla deras nya applikation från grunden.
